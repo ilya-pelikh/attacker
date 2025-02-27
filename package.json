@@ -1,0 +1,12 @@
+{
+  "type": "commonjs",
+  "name": "ya-dos",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test url=http://test.ru?user=$1%26admin$2 dict=users.txt dict=passwords.txt",
+    "run": "export NODE_TLS_REJECT_UNAUTHORIZED=0 && export NODE_NO_WARNINGS=1 && node app.js"
+  },
+  "author": "undefined",
+  "license": "ISC"
+}
